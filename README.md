@@ -25,7 +25,7 @@ The full rules are in [docs/RULES.md](docs/RULES.md).
 - Step-by-step scoring animation, particles, screen shake and a custom effect for every Element
 - Shop economy with escalating prices, skills that level up combos, and vouchers
 - Save and continue, lifetime records, collection screen and an in-game rule book
-- Visuals drawn entirely in code; sound effects synthesized from waveforms
+- Visuals drawn entirely in code; sound effects and fallback music synthesized from waveforms
 
 ## Run it
 
@@ -35,6 +35,10 @@ Requires Python 3.10 or newer.
 pip install -r requirements.txt
 python main.py
 ```
+
+## Music
+
+My local build uses two background tracks I generated with mytunes.ai. Their terms allow personal, non-commercial use only, so the tracks are not included in this repository. Without them the game plays its own synthesized music loop, so it runs and sounds complete either way.
 
 ## Tests and balancing
 
