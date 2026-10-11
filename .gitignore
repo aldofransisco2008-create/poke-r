@@ -1,0 +1,22 @@
+# Python and tool caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.uv-cache/
+wheels/
+.vscode/
+
+# Player data (created when the game runs)
+savegame.json
+records.json
+settings.json
+
+# Logs and simulation output
+*.log
+sim.txt
+*.tmp
+
+# Background music made with mytunes.ai: personal, non-commercial use only, so not published.
+# The game synthesizes its own music when these files are missing.
+assets/music/
